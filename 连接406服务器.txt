@@ -1,0 +1,20 @@
+使用用户名和账号密码登陆
+202.115.16.208
+用户名:ets
+密码：xrets406
+
+cd /mnt/sda1/lijie 自己的文件目录
+
+source ~/.bashrc 激活所有的环境变量
+conda env list 列出所有的虚拟环境
+
+要回到主目录下的 anaconda3/ 目录下创建自己的虚拟环境
+cd /home/ets/anaconda3/
+conda create -n tfname python==3.8 创建自己的虚拟环境
+
+source activate lj_env 进入自己的
+虚拟环境
+source deactivate tf 离开自己的虚拟环境
+
+密码的哈希值
+'argon2:$argon2id$v=19$m=10240,t=10,p=8$Wr8O/dpygNLZe9PbwzclgQ$WVpFXrJJQPM7w2bjqR9pNg'
